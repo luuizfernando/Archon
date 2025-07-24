@@ -1,0 +1,398 @@
+[2025-07-17 18:56:06] Starting MCP server
+[2025-07-17 19:01:39] Starting MCP server
+[2025-07-17 19:02:21] Starting MCP server
+[2025-07-17 19:25:16] Starting MCP server
+[2025-07-17 19:31:21] Starting MCP server
+[2025-07-17 19:31:21] Starting MCP server
+[2025-07-17 19:31:57] Starting MCP server
+[2025-07-18 16:40:39] Starting MCP server
+[2025-07-18 16:41:30] Starting MCP server
+[2025-07-18 19:31:29] Starting MCP server
+[2025-07-18 19:31:29] Starting MCP server
+[2025-07-21 12:47:46] Starting MCP server
+[2025-07-21 12:47:49] Starting MCP server
+[2025-07-21 12:48:09] Starting MCP server
+[2025-07-21 12:48:13] Starting MCP server
+[2025-07-21 12:48:21] Starting MCP server
+[2025-07-21 12:48:26] Starting MCP server
+[2025-07-21 12:50:29] Created new thread: cb69c07c-c40b-4c75-a00a-a6b8383e272c
+[2025-07-21 12:50:34] Processing message for thread cb69c07c-c40b-4c75-a00a-a6b8383e272c: Crie um agente de IA chamado 'TravelAgent' que seja capaz de realizar reservas em hotéis e comprar passagens aéreas. O agente deve interagir com o usuário para coletar informações necessárias (datas, destinos, preferências) e simular a realização dessas reservas e compras. O agente deve ser amigável, eficiente e fornecer confirmações claras ao usuário.
+[2025-07-21 12:50:34] Request failed for thread cb69c07c-c40b-4c75-a00a-a6b8383e272c: HTTPConnectionPool(host='localhost', port=8100): Max retries exceeded with url: /invoke (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1072d9d50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+[2025-07-21 12:51:46] Processing message for thread cb69c07c-c40b-4c75-a00a-a6b8383e272c: Crie um agente de IA chamado 'TravelAgent' que seja capaz de realizar reservas em hotéis e comprar passagens aéreas. O agente deve interagir com o usuário para coletar informações necessárias (datas, destinos, preferências) e simular a realização dessas reservas e compras. O agente deve ser amigável, eficiente e fornecer confirmações claras ao usuário.
+[2025-07-21 12:51:46] Request failed for thread cb69c07c-c40b-4c75-a00a-a6b8383e272c: HTTPConnectionPool(host='localhost', port=8100): Max retries exceeded with url: /invoke (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1072da3e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+[2025-07-21 12:52:34] Starting MCP server
+[2025-07-21 12:52:35] Starting MCP server
+[2025-07-21 12:52:37] Starting MCP server
+[2025-07-21 12:52:38] Starting MCP server
+[2025-07-21 12:52:39] Starting MCP server
+[2025-07-21 12:52:39] Starting MCP server
+[2025-07-21 12:52:39] Starting MCP server
+[2025-07-21 13:22:10] Starting MCP server
+[2025-07-21 13:22:14] Starting MCP server
+[2025-07-21 13:22:25] Starting MCP server
+[2025-07-21 13:22:28] Starting MCP server
+[2025-07-21 13:25:08] Starting MCP server
+[2025-07-21 13:25:11] Starting MCP server
+[2025-07-21 17:30:59] Starting MCP server
+[2025-07-21 17:35:46] Created new thread: af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 17:35:55] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 17:35:55] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: HTTPConnectionPool(host='localhost', port=8100): Max retries exceeded with url: /invoke (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1069d9d20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+[2025-07-21 17:37:31] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 17:37:31] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 17:37:32] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Error code: 401 - {'error': {'message': 'Incorrect API key provided: no-llm-a***********ided. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-07-21 17:37:32] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 18:11:50] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 18:11:50] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 18:11:51] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Error code: 401 - {'error': {'message': 'Incorrect API key provided: no-llm-a***********ided. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-07-21 18:11:51] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 18:22:09] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 18:22:09] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 18:22:10] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Error code: 401 - {'error': {'message': 'Incorrect API key provided: no-llm-a***********ided. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-07-21 18:22:10] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 18:26:10] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 18:26:10] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 18:26:56] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Called get_config outside of a runnable context
+[2025-07-21 18:26:56] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 20:09:22] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 20:09:22] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 20:10:09] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Called get_config outside of a runnable context
+[2025-07-21 20:10:09] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 22:30:09] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente que apenas diga 'Olá, mundo!' para qualquer mensagem recebida.
+[2025-07-21 22:30:09] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 22:30:41] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Called get_config outside of a runnable context
+[2025-07-21 22:30:41] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 22:41:38] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 22:41:38] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 22:42:58] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Called get_config outside of a runnable context
+[2025-07-21 22:42:58] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-21 22:51:10] Processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Quero um agente de IA que ajude o usuário a comprar passagens aéreas. O agente deve:
+- Perguntar a cidade de origem, destino, datas da viagem e número de passageiros.
+- Buscar opções de voos em APIs de companhias aéreas ou agregadores (pode simular a busca se não houver integração real).
+- Mostrar as opções de voos para o usuário escolher.
+- Solicitar os dados necessários para a compra (nome, e-mail, etc).
+- Simular a compra e confirmar a reserva, mostrando os detalhes finais ao usuário.
+- Ser educado, claro e guiar o usuário durante todo o processo.
+[2025-07-21 22:51:10] Processing first message for thread af0712d4-c4d7-459f-b6f7-c789bc024466
+[2025-07-21 22:51:48] Error processing message for thread af0712d4-c4d7-459f-b6f7-c789bc024466: Called get_config outside of a runnable context
+[2025-07-21 22:51:48] Request failed for thread af0712d4-c4d7-459f-b6f7-c789bc024466: 500 Server Error: Internal Server Error for url: http://localhost:8100/invoke
+[2025-07-22 12:07:14] Starting MCP server
+[2025-07-22 12:21:26] Starting MCP server
+[2025-07-22 13:53:58] Starting MCP server
+[2025-07-22 13:59:47] Starting MCP server
+[2025-07-22 14:02:10] Starting MCP server
+[2025-07-22 14:05:17] Starting MCP server
+[2025-07-22 14:08:44] Starting MCP server
+[2025-07-22 14:23:10] Starting MCP server
+[2025-07-22 14:29:40] Starting MCP server
+[2025-07-22 14:35:19] Starting MCP server
+[2025-07-22 14:36:07] Created new thread: 9a683db9-ed10-466e-bf50-aa2e7847185c
+[2025-07-22 14:36:08] Processing message for thread 9a683db9-ed10-466e-bf50-aa2e7847185c: Crie um agente Archon especialista em informaÃ§Ãµes de veÃ­culos. Ele deve ser capaz de responder perguntas sobre especificaÃ§Ãµes tÃ©cnicas, consumo, marcas, modelos, anos, e curiosidades de carros, motos e caminhÃµes. Utilize fontes confiÃ¡veis e, se possÃ­vel, integre APIs pÃºblicas automotivas para enriquecer as respostas.
+[2025-07-22 14:36:10] Processing first message for thread 9a683db9-ed10-466e-bf50-aa2e7847185c
+[2025-07-22 14:36:59] Final response for thread 9a683db9-ed10-466e-bf50-aa2e7847185c: Baseado nos requisitos apresentados, vou criar um agente Archon especializado em informações de veículos. Este agente será capaz de responder perguntas sobre especificações técnicas, consumo, marcas, modelos e anos de carros, motos e caminhões, além de curiosidades. Vamos integrar APIs públicas automotivas para enriquecer as respostas.
+
+Aqui está a estrutura e o código do agente:
+
+### Estrutura do Agente Archon
+
+1. **agent.py** - Definição e configuração do agente.
+2. **agent_tools.py** - Implementação das ferramentas (buscar dados sobre veículos).
+3. **agent_prompts.py** - Prompts e instruções para o agente.
+4. **.env.example** - Variáveis de ambiente necessárias.
+5. **requirements.txt** - Dependências do projeto.
+
+### Código do Agente
+
+#### 1. `agent.py`
+
+```python
+from __future__ import annotations as _annotations
+
+import os
+from dataclasses import dataclass
+from typing import Any, Optional
+
+from httpx import AsyncClient
+from pydantic_ai import Agent, RunContext
+
+@dataclass
+class Deps:
+    client: AsyncClient
+    vehicle_data_api_key: Optional[str]
+
+vehicle_info_agent = Agent(
+    model='openai:gpt-4o',
+    system_prompt='Você é um especialista em informações sobre veículos, incluindo especificações técnicas, consumo, marcas, modelos e curiosidades.',
+    deps_type=Deps,
+    retries=2
+)
+```
+
+#### 2. `agent_tools.py`
+
+```python
+from __future__ import annotations
+
+import os
+from typing import Any
+
+from httpx import AsyncClient, RequestError
+from pydantic_ai import RunContext, tool
+from pydantic_ai.agent import ModelRetry
+
+@tool
+async def get_vehicle_info(ctx: RunContext[Deps], vehicle_name: str) -> dict[str, Any]:
+    """Obtém detalhes sobre um veículo utilizando uma API pública.
+
+    Args:
+        ctx: O contexto atual do agente Pydantic.
+        vehicle_name: Nome do veículo a ser pesquisado.
+    
+    Returns:
+        Informações sobre o veículo.
+    
+    Raises:
+        ModelRetry: Caso a solicitação à API falhe.
+    """
+    if ctx.deps.vehicle_data_api_key is None:
+        raise ValueError("Chave API do veículo não está disponível.")
+
+    headers = {
+        'Authorization': f'Bearer {ctx.deps.vehicle_data_api_key}',
+    }
+
+    try:
+        response = await ctx.deps.client.get(f'https://api.vehicledatabase.com/v1/vehicles?name={vehicle_name}', headers=headers)
+        response.raise_for_status()
+        return response.json()
+    except RequestError as e:
+        raise ModelRetry(f"Erro ao buscar informações do veículo: {str(e)}")
+```
+
+#### 3. `agent_prompts.py`
+
+```python
+INITIAL_PROMPT = """Você é um especialista em veículos, capaz de fornecer informações precisas e detalhadas sobre marcas, modelos, consumos e especificações técnicas. Responda de forma clara e concisa."""
+
+RESPONSE_PROMPT_TEMPLATE = """Pergunta: {question}
+Resposta: {response}
+"""
+```
+
+#### 4. `.env.example`
+
+```env
+# Crie um arquivo .env na raiz do projeto e insira suas chaves API
+# API para acessar dados sobre veículos, como consumo e especificações
+VEHICLE_DATA_API_KEY=your_vehicle_data_api_key_here
+```
+
+#### 5. `requirements.txt`
+
+```plaintext
+httpx
+pydantic-ai
+python-dotenv
+```
+
+### Como Usar o Agente
+
+1. Instale as dependências com `pip install -r requirements.txt`.
+2. Configure as variáveis de ambiente corretamente no arquivo `.env`.
+3. Execute seu aplicativo. Você pode criar um script para interagir com o agente e fazer perguntas sobre veículos.
+
+Esse código está pronto para ser integrado ao seu ambiente de desenvolvimento. O agente pode buscar informações detalhadas sobre veículos e, caso encontre alguma falha na solicitação à API, tentará uma nova chamada.
+
+Se deseja que eu refine o agente autonomamente ou faça ajustes conforme suas necessidades específicas, por favor, me avise.
+[2025-07-22 14:51:40] Starting MCP server
+[2025-07-22 14:52:42] Created new thread: 2701d157-bb2a-402b-ba1c-9c8b76cb64cf
+[2025-07-22 14:52:44] Processing message for thread 2701d157-bb2a-402b-ba1c-9c8b76cb64cf: Crie um agente de IA especializado em veÃ­culos, focado em tirar dÃºvidas sobre carros. O agente deve ser capaz de responder perguntas tÃ©cnicas, dar dicas de manutenÃ§Ã£o, explicar diferenÃ§as entre modelos, sugerir veÃ­culos para diferentes perfis de uso e esclarecer termos automotivos. As respostas devem ser claras, didÃ¡ticas e em portuguÃªs.
+[2025-07-22 14:52:48] Request failed for thread 2701d157-bb2a-402b-ba1c-9c8b76cb64cf: HTTPConnectionPool(host='localhost', port=8100): Max retries exceeded with url: /invoke (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002493223C590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[2025-07-22 14:53:16] Starting MCP server
+[2025-07-22 14:53:55] Starting MCP server
+[2025-07-22 14:56:46] Starting MCP server
+[2025-07-22 14:57:09] Processing message for thread 2701d157-bb2a-402b-ba1c-9c8b76cb64cf: Crie um agente de IA especializado em veÃ­culos, focado em tirar dÃºvidas sobre carros. O agente deve ser capaz de responder perguntas tÃ©cnicas, dar dicas de manutenÃ§Ã£o, explicar diferenÃ§as entre modelos, sugerir veÃ­culos para diferentes perfis de uso e esclarecer termos automotivos. As respostas devem ser claras, didÃ¡ticas e em portuguÃªs.
+[2025-07-22 14:57:11] Processing first message for thread 2701d157-bb2a-402b-ba1c-9c8b76cb64cf
+[2025-07-22 14:58:08] Final response for thread 2701d157-bb2a-402b-ba1c-9c8b76cb64cf: Conforme solicitado, desenvolvi um agente de IA especializado em veículos, capaz de responder perguntas técnicas sobre carros, fornecer dicas de manutenção, explicar diferenças entre modelos, sugerir veículos para diferentes perfis de uso e esclarecer termos automotivos. O agente foi configurado para responder em português e de forma clara e didática.
+
+Segue a estrutura do código completo:
+
+### 1. `agent.py`
+
+```python
+from __future__ import annotations as _annotations
+
+import os
+from dataclasses import dataclass
+from typing import Any
+
+from httpx import AsyncClient
+from pydantic_ai import Agent, ModelRetry, RunContext
+
+@dataclass
+class Deps:
+    client: AsyncClient
+    brave_api_key: str | None
+
+
+vehicle_agent = Agent(
+    'openai:gpt-4o',
+    system_prompt='Você é um especialista em veículos. Ajude os usuários a entenderem sobre carros, manutenção, comparações de modelos e termos automotivos.',
+    deps_type=Deps,
+    retries=2,
+)
+
+
+@vehicle_agent.tool
+async def search_vehicle_information(ctx: RunContext[Deps], query: str) -> str:
+    """Pesquisar informações sobre veículos.
+
+    Args:
+        ctx: O contexto do agente.
+        query: A consulta de pesquisa do usuário.
+    """
+    if ctx.deps.brave_api_key is None:
+        return "Para fornecer informações, a chave da API do Brave é necessária."
+
+    params = {
+        'q': query,
+        'max_results': 5,
+        'language': 'pt',
+    }
+    
+    async with ctx.deps.client.get(
+        'https://api.brave.com/search', 
+        headers={'Authorization': f'Bearer {ctx.deps.brave_api_key}'},
+        params=params
+    ) as response:
+        response.raise_for_status()
+        data = response.json()
+
+    if not data.get('results'):
+        return "Nenhum resultado encontrado para sua pesquisa."
+
+    results = []
+    for item in data['results']:
+        title = item.get('title')
+        description = item.get('description')
+        url = item.get('url')
+        results.append(f"* {title}\n  - {description}\n  - [Leia mais]({url})")
+    
+    return "\n".join(results)
+
+
+@vehicle_agent.tool
+async def maintenance_tips(ctx: RunContext[Deps], vehicle_model: str) -> str:
+    """Fornecer dicas de manutenção para um modelo de veículo específico.
+
+    Args:
+        ctx: O contexto do agente.
+        vehicle_model: O modelo do veículo.
+    """
+    # Exemplo de dicas de manutenção. Em uma versão real, usaríamos uma base de dados.
+    tips = {
+        "Modelo A": "Troque o óleo a cada 5.000 km e verifique os freios.",
+        "Modelo B": "Inspecione os pneus mensalmente e mantenha os níveis de fluido em dia.",
+    }
+    return tips.get(vehicle_model, "Modelo não encontrado ou sem dicas disponíveis.")
+
+
+async def main():
+    async with AsyncClient() as client:
+        brave_api_key = os.getenv('BRAVE_API_KEY')
+        deps = Deps(client=client, brave_api_key=brave_api_key)
+
+        # Exemplo de uso do agente
+        search_result = await vehicle_agent.run(
+            'Quais são as dicas de manutenção para o modelo A?', deps=deps
+        )
+        print('Resposta:', search_result.data)
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+### 2. `agent_tools.py`
+
+```python
+# Este arquivo seria utilizado para definir e implementar ferramentas adicionais,
+# caso necessário. Por agora, não temos mais ferramentas além das já definidas no agente.
+```
+
+### 3. `agent_prompts.py`
+
+```python
+# Define as mensagens e prompts utilizados pelo agente.
+DEFAULT_PROMPT = (
+    "Você é um especialista em veículos. Ajude os usuários com informações sobre "
+    "carros, manutenção, comparações de modelos e explicações de termos automotivos. "
+    "Responda de forma clara e didática em português."
+)
+```
+
+### 4. `.env.example`
+
+```plaintext
+# Copie este arquivo para .env e preencha com suas chaves de API necessárias.
+
+# Chave da API do Brave para realizar buscas na web.
+BRAVE_API_KEY=your_brave_api_key_here
+```
+
+### 5. `requirements.txt`
+
+```
+httpx
+pydantic_ai
+python-dotenv
+```
+
+### Futuras Melhorias
+1. **Integração de uma base de dados**: Para armazenar e acessar dicas de manutenção de forma estruturada.
+2. **Sistema de feedback**: Implementar um método para melhorar o modelo com base nas interações dos usuários.
+
+Se você precisar de mais alguma referência ou melhorias específicas, por favor, me avise! Deseja que eu refine o agente autonomamente ou receber feedback?
+[2025-07-23 14:13:44] Starting MCP server
+[2025-07-23 14:15:47] Starting MCP server
+[2025-07-24 11:51:24] Starting MCP server
