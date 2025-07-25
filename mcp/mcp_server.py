@@ -117,11 +117,10 @@ async def run_agent(thread_id: str, user_input: str) -> str:
     except Exception as e:
         raise
 
-
 if __name__ == "__main__":
     print("Servidor MCP iniciado!")
     write_to_log("Starting MCP server")
-    
-    # Run MCP server
-    mcp.run(transport='stdio')
+    port = int(os.environ.get("PORT", 8080))
+    mcp.run(transport="http", host="0.0.0.0", port=port)
+
 
