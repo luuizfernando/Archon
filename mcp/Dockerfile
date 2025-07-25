@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port for MCP server
-EXPOSE 8100
+EXPOSE 8080
 
 # Command to run the MCP server
 CMD ["python", "mcp_server.py"]
