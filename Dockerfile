@@ -17,4 +17,4 @@ ENV PYTHONPATH=/app
 EXPOSE 8100
 EXPOSE 8080
 
-CMD ["sh", "-c", "python graph_service.py & python mcp_server.py"]
+CMD ["sh", "-c", "python graph_service.py & python mcp/mcp_server.py"]
