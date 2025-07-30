@@ -4,7 +4,7 @@ import asyncio
 import os
 
 # Importa seu MCP existente
-from mcp.mcp_server import create_thread, run_agent
+from mcp_server import create_thread, run_agent
 
 app = FastAPI(title="MCP HTTP Wrapper", version="1.0.0")
 
