@@ -18,11 +18,12 @@ COPY . .
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/app
 
-# Expor porta principal
+# Expor a porta pública (Graph Service)
 EXPOSE 10000
 
-# Executar MCP em background e Graph Service como principal
-CMD python -m mcp.mcp_server & \
-    uvicorn graph_service:app --host 0.0.0.0 --port ${PORT:-10000}
+# Rodar MCP em segundo plano + expor Graph Service publicamente
+CMD python mcp/mcp_server.py & \
+    uvicorn graph_service:app --host 0.0.0.0 --port 10000
+
 
 
