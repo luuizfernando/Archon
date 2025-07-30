@@ -21,6 +21,8 @@ ENV PYTHONPATH=/app
 # Expor porta principal
 EXPOSE 10000
 
-# Executar MCP como background + Graph Service como principal
-CMD python -m mcp_server & \
-    uvicorn graph_service:app --host 0.0.0.0 --port 10000
+# Executar MCP em background e Graph Service como principal
+CMD python -m mcp.mcp_server & \
+    uvicorn graph_service:app --host 0.0.0.0 --port ${PORT:-10000}
+
+
