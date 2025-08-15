@@ -83,6 +83,9 @@ async def run_agent(thread_id: str, user_input: str) -> str:
 if __name__ == "__main__":
     print("Servidor MCP iniciado!")
     write_to_log("Starting MCP server")
-    mcp.run(transport="http")
-
-
+    # Determine transport (supported: 'stdio', optionally 'sse' depending on mcp version)
+    transport = os.getenv("MCP_TRANSPORT", "stdio")
+    if transport not in ("stdio", "sse"):
+        print(f"Transport '{transport}' não suportado, usando 'stdio'.")
+        transport = "stdio"
+    mcp.run(transport=transport)
